@@ -3,6 +3,7 @@ package com.zzt.broadcastreceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 //        registerBroadcastReceiver();
 
         tv_msg = findViewById(R.id.tv_msg);
-
+        tv_msg.setMovementMethod(ScrollingMovementMethod.getInstance());
     }
 
 

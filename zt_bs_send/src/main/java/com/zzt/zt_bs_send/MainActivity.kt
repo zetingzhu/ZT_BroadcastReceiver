@@ -47,7 +47,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     val context = LocalContext.current
     val ACTION_RECEIVE = "com.RECEIVE"
     val ACTION_DATA = "com.DATA"
-    val TAG = "ZZZZZZZ"
+    val TAG = "MyReceiver-Send"
 
     Column {
         Text(
